@@ -2,5 +2,4 @@ streamlit==1.28.0
 spacy==3.7.0
 pymupdf==1.23.0
 en-core-web-sm==3.7.0
-python -m spacy download en_core_web_sm
-numpy==1.24.0 
+numpy==1.24.0
