@@ -5,10 +5,15 @@ import fitz  # PyMuPDF
 import tempfile
 import os
 
-# Load spaCy model
 @st.cache_resource
 def load_model():
-    return spacy.load("en_core_web_sm")
+    try:
+        # First try to load normally
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        # If model not found, download it
+        os.system("python -m spacy download en_core_web_sm")
+        return spacy.load("en_core_web_sm")
 
 nlp = load_model()
 
