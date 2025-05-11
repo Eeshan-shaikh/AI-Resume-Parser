@@ -1,0 +1,13 @@
+We are looking for a skilled Python Developer to join our team.
+
+Responsibilities:
+- Develop backend systems using Python
+- Work with APIs and databases (PostgreSQL, MySQL)
+- Collaborate using Git and Agile methods
+
+Requirements:
+- Proficient in Python and Django/Flask
+- Knowledge of REST APIs, SQL
+- Familiarity with Git and Linux
+- Bachelor's degree in Computer Science
+- 2+ years of development experience
